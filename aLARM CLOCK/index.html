@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="shortcut icon" href="alrm-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Current Time </h2>
+    <div id="clock"></div>
+    <div>
+        <label for="alarm-time">Set Alarm timer </label>
+        <input type="time" id="alarm-time">
+        <button id="set-alarm">Set</button>
+        <button id="stop-alarm">Stop</button>
+        
+    </div>
+    <audio id="alarm-sound" src="audio.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
